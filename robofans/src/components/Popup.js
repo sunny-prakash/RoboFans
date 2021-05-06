@@ -8,7 +8,7 @@ const Popup = (props) => {
                 <div className="popup--close" onClick={props.closePopup}>
                     x
                 </div>
-                <div className="flex pt3">
+                <div className="flex flex-wrap pt3 justify-around">
                     <div>
                         <img className="popup--img" src={`https://robohash.org/${props.popupRobo[0].id}`} alt="robotsImage" />
                     </div>
